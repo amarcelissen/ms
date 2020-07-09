@@ -12,8 +12,9 @@ a {
   margin: 10px 20px;
   text-decoration: none;
 }
+
 a:hover{
-  color: #eaf6f6;
+  color:orange;
 }
 
 hr {
@@ -48,11 +49,11 @@ p {
 }
 .top-container {
   position: relative;
-  
+
 }
 
 .mid-container {
- 
+
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -186,38 +187,40 @@ p {
   text-decoration: none;
 }
 .contact-form {
+  background-color: #b2ebf2;
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1;
   padding: 50px;
   margin: 30px auto;
-}	
-.contact-form h1 {
-  font-size: 42px;
-  font-family: 'Pacifico', sans-serif;
-  margin: 0 0 50px;
-  text-align: center;
 }
+
 .contact-form .form-group {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
   margin-bottom: 20px;
 }
 .contact-form .form-control, .contact-form .btn {
-  min-height: 38px;
-  border-radius: 2px;
+  min-height: 50px;
+  border-radius: 5px;
 }
 .contact-form .form-control {
-border-color: #e2c705;
+border-color: #30e3cb;
 }
 .contact-form .form-control:focus {
-border-color: #d8b012;
-box-shadow: 0 0 8px #dcae10;
+border-color: #30e3cb;
+box-shadow: 0 0 8px #30e3cb;
 }
-.contact-form .btn-primary {
+.contact-form .BUTTON_UNI {
   min-width: 250px;
-  color: #fcda2e;
-  background: #000;
+  color:  #66bfbf;
+
   margin-top: 20px;
   border: none;
 }
-.contact-form .btn-primary:hover {
-  color: #fff; 
+.contact-form .BUTTON_UNI:hover {
+  color: #30e3cb;
 }
 .contact-form .btn-primary i {
   margin-right: 5px;
@@ -231,4 +234,3 @@ box-shadow: 0 0 8px #dcae10;
 .bs-example {
 margin: 20px;
 }
-
