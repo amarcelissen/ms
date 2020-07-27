@@ -5,7 +5,6 @@ body {
   font-family: 'Merriweather', sans-serif;
   color: #40514e;
 }
-
 a {
   color: #11999e;
   font-family: 'Montserrat', sans-serif;
@@ -14,8 +13,8 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: orange;
+a:hover{
+  color:orange;
 }
 
 hr {
@@ -28,9 +27,8 @@ hr {
 h1 {
   font-size: 4.8rem;
   color: #66bfbf;
-  margin: 0 auto 10px auto;
+  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
-  font-weight: 700;
   line-height: 1;
 }
 
@@ -46,26 +44,16 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.4rem;
 }
-
 p {
   line-height: 1.8;
 }
-
 .top-container {
   position: relative;
-}
 
-.navbar {
-  padding: 0 0 5% 65%;
-}
-
-.nav-link {
-  font-size: 1rem;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: bold;
 }
 
 .mid-container {
+
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -73,7 +61,6 @@ p {
 .profile {
   margin: 25px auto 25px auto;
 }
-
 .p-paragraph {
   width: 34%;
   margin: auto;
@@ -83,6 +70,7 @@ p {
   width: 50%;
   margin: 40px auto 40px auto;
   text-align: left;
+
 }
 
 .bot-container {
@@ -94,32 +82,32 @@ p {
 
 .bottom-cloud {
   position: absolute;
-  right: 10%;
-  top: 10%;
+  right: 150px;
+  top: 10px;
 }
 
 .top-cloud {
   position: absolute;
-  left: 5%;
-  top: 25%;
+  left: 150px;
+  bottom: 350px;
 }
 
 .glider {
   position: absolute;
-  right: 15%;
-  top: 40%;
+  right: 300px;
+  bottom: 200px;
   height: 100px;
   width: 100px;
 }
-
 .mountain {
-  padding-bottom: 5px;
+ padding-bottom: 5px;
 }
 
 .monitor {
   width: 25%;
   float: left;
   margin-right: 30px;
+
 }
 
 .software {
@@ -143,18 +131,15 @@ p {
 .alf-img {
   width: 25%;
 }
-
 .contact-message {
   width: 35%;
   margin: 40px auto 60px;
 }
-
 .contact-body {
   font-size: 1.2rem;
   font-weight: bold;
   background-color: #b2ebf2;
 }
-
 .copyright {
   color: #eaf6f6;
   font-size: 0.8rem;
@@ -168,7 +153,7 @@ p {
   background: -ms-linear-gradient(center top, #11cdd4 5%, #11cdd4 50%);
   background: -o-linear-gradient(center top, #11cdd4 5%, #11cdd4 50%);
   background: -webkit-linear-gradient(center top, #11cdd4 5%, #11cdd4 50%);
-  background-image: -ms-linear-gradient(top, #66bfbf, #66bfbf);
+  background-image: -ms-linear-gradient(top,#66bfbf, #66bfbf);
   background-image: -o-linear-gradient(top, #66bfbf, #66bfbf);
   background-image: linear-gradient(to bottom, #66bfbf, #66bfbf);
   -webkit-border-radius: 5px;
@@ -179,6 +164,7 @@ p {
   font-size: 20px;
   font-weight: 500;
   padding: 10px 15px 10px 15px;
+
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
@@ -194,13 +180,12 @@ p {
   background: -webkit-linear-gradient(center top, #f24537 5%, #c62d1f 50%);
   background-image: -ms-linear-gradient(top, #30e3cb, #30e3cb);
   background-image: -o-linear-gradient(top, #30e3cb, #30e3cb);
-  background-image: linear-gradient(to bottom, #30e3cb, #30e3cb);
+  background-image: linear-gradient(to bottom, #30e3cb,#30e3cb);
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
   text-decoration: none;
 }
-
 .contact-form {
   background-color: #b2ebf2;
   color: #11999e;
@@ -216,50 +201,36 @@ p {
   font-size: 2rem;
   margin-bottom: 20px;
 }
-
 .contact-form .form-control, .contact-form .btn {
   min-height: 50px;
   border-radius: 5px;
 }
-
 .contact-form .form-control {
-  border-color: #30e3cb;
+border-color: #30e3cb;
 }
-
 .contact-form .form-control:focus {
-  border-color: #30e3cb;
-  box-shadow: 0 0 8px #30e3cb;
+border-color: #30e3cb;
+box-shadow: 0 0 8px #30e3cb;
 }
-
 .contact-form .BUTTON_UNI {
   min-width: 250px;
-  color: #66bfbf;
+  color:  #66bfbf;
+
   margin-top: 20px;
   border: none;
 }
-
 .contact-form .BUTTON_UNI:hover {
   color: #30e3cb;
 }
-
 .contact-form .btn-primary i {
   margin-right: 5px;
 }
-
 .contact-form label {
   opacity: 0.9;
 }
-
 .contact-form textarea {
   resize: vertical;
 }
-
 .bs-example {
-  margin: 20px;
-}
-
-@media (max-width: 1028px) {
-  .navbar {
-    padding: 0 0 5% 80%;
-  }
+margin: 20px;
 }
