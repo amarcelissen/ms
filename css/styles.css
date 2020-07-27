@@ -251,15 +251,15 @@ p {
   .glider {
     position: absolute;
     right: 20%;
-    top: 300px;
+    top: 350px;
     height: 120px;
     width: 120px;
   }
 
   .top-cloud {
     position: absolute;
-    left: 10%;
-    top: 210px;
+    left: 5%;
+    top: 200px;
   }
 
   p {
@@ -270,7 +270,7 @@ p {
     width: 80%;
   }
   a {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
   }
   .alf-img {
     width: 40%;
