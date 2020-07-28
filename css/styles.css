@@ -102,6 +102,7 @@ p {
 }
 
 .mountain {
+  
   padding-bottom: 5px;
 }
 
@@ -270,10 +271,10 @@ p {
     width: 80%;
   }
   a {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .alf-img {
-    width: 40%;
+    width: 50%;
   }
   .heading2 {
     font-size: 7rem;
@@ -285,20 +286,22 @@ p {
   }
   .contact-message {
     width: 80%;
-    font-size: 1.9rem;
   }
   .BUTTON_UNI {
-    font-size: 35px;
+    font-size: 40px;
   }
   .copyright {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .heading3 {
     font-size: 3.2rem;
     font-weight: bold;
   }
   .heading4 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
+  }
+  .mountain {
+    width: 700px;
   }
 }
