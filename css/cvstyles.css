@@ -1,0 +1,288 @@
+body {
+  font-family: "Montserrat"sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold"sans-serif;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+li {
+  margin-left: 25px;
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Sacramento', cursive;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 1.5rem 0;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #ccffff;
+  color: #66bfbf;
+  height: 700px;
+}
+
+.white-section {
+  background-color: #fff;
+  height: 700px;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #66bfbf !important;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  color: #66bfbf !important;
+}
+
+.nav-link:hover {
+  color: #8f8f8f !important;
+}
+
+/* Title Section */
+#title {
+  color: #66bfbf;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+.title-image {
+  width: 180px;
+  border-radius: 30px;
+  border: 3px solid #66bfbf;
+  float: right;
+}
+
+/* Address Section */
+#address {
+  position: relative;
+  padding: 10% 5%;
+  color: #66bfbf;
+}
+
+.feature-title {
+  font-size: 2rem;
+}
+
+.address-text {
+  font-size: 1.8rem;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ccffff;
+}
+
+.testimonial-text {
+  margin-top: 4rem;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  color: #66bfbf;
+}
+
+.page1 {
+  font-size: 1.8rem;
+  color: #66bfbf;
+  margin-right: 25%;
+  margin-left: 25%;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  margin-top: 1rem;
+}
+
+.page2 {
+  font-size: 1.3rem;
+  color: #66bfbf;
+  margin-right: 15%;
+  margin-left: 15%;
+  line-height: 1.3;
+}
+
+.page3 {
+  font-size: 1.3rem;
+  color: #66bfbf;
+  margin-right: 15%;
+  margin-left: 15%;
+  line-height: 1;
+}
+.carousel-indicators {
+  bottom: -40px;
+}
+
+.carousel-indicators li {
+  background-color: #ede682;
+  width: 30px;
+  height: 8px;
+  border-radius: 25%;
+}
+
+.carousel-indicators .active {
+  background-color: #ef8172;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ef8172' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  width: 2rem;
+  height: 2rem;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ef8172' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  width: 2rem;
+  height: 2rem;
+}
+
+#education {
+  padding: 30px 20px;
+  color: #66bfbf;
+}
+
+.card-header {
+  background-color: #ccffff;
+}
+
+.card-body.p {
+  font-size: 2rem;
+}
+
+.card {
+  border: none;
+}
+
+#hobbies {
+  padding: 45px 20px;
+  color: #66bfbf;
+}
+
+.hobbies-image {
+  width: 350px;
+}
+
+.colored-section.hobbies {
+  height: 550px;
+}
+
+.hobbies-card-body {
+  background-color: #ccffff;
+}
+
+@media (max-width: 1080px) {
+  #title {
+    text-align: center;
+  }
+
+  .big-heading {
+    font-size: 7rem;
+  }
+
+  .colored-section {
+    height: 1100px;
+  }
+
+  .title-image {
+    float: none;
+    width: 250px;
+  }
+
+  .navbar-brand {
+    font-size: 3rem;
+  }
+
+  .nav-link {
+    font-size: 2.5rem;
+  }
+  .white-section {
+    height: 1100px;
+  }
+  .feature-title {
+    font-size: 3.5rem;
+  }
+
+  .address-text {
+    font-size: 3rem;
+  }
+  #education {
+    height: 1500px;
+  }
+  #hobbies {
+    height: 1000px;
+  }
+  #testimonials {
+    height: 1350px;
+  }
+
+  .work {
+    font-size: 3rem;
+  }
+  .work1 {
+    font-size: 2.7rem;
+  }
+  .testimonial-text {
+    margin-top: 7rem;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #66bfbf;
+  }
+  .page1 {
+    font-size: 2.7rem;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .page2 {
+    font-size: 2.5rem;
+    margin-right: 7%;
+    margin-left: 7%;
+  }
+  .page3 {
+    font-size: 2.5rem;
+    margin-right: 7%;
+    margin-left: 7%;
+  }
+  p {
+    font-size: 2.5rem;
+  }
+  .section-heading {
+    font-size: 4rem;
+    line-height: 2;
+  }
+}
